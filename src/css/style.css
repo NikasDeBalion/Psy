@@ -1,0 +1,115 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #407BFF;
+  text-decoration: underline;
+}
+
+.first-section {
+  margin-bottom: 150px;
+}
+.first-section__logo {
+  width: 122px;
+  height: 122px;
+}
+.first-section__nav-button {
+  flex-direction: row;
+  height: 122px;
+  align-items: center;
+}
+
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  height: 122px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.nav-menu__item {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+.nav-menu__item-language {
+  width: 65px;
+  height: 32px;
+}
+.button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #407BFF;
+  border-radius: 30px;
+  height: 50px;
+  width: 175px;
+  border-color: transparent;
+}
+.button:hover {
+  background: linear-gradient(45deg, #e70f5e, #b35ac3, #148ae3);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 90px;
+}
+.left-wrapper__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.left-wrapper__name {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.left-wrapper__description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  color: #000000;
+  max-width: 400px;
+  margin-bottom: 50px;
+}
+.right-wrapper {
+  padding-right: 45px;
+}
+
+.second-section__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.second-section__decision {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  color: #000000;
+  padding-left: 150px;
+  margin-bottom: 60px;
+}/*# sourceMappingURL=style.css.map */
