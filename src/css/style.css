@@ -22,7 +22,7 @@
   height: 122px;
   align-items: center;
 }
-.first-section__line-2 {
+.first-section__line {
   position: absolute;
   top: 519px;
   width: 100%;
@@ -138,4 +138,10 @@
 }
 .second-section__image {
   margin-bottom: 100px;
+}
+.second-section__line {
+  position: absolute;
+  top: 1358px;
+  width: 100%;
+  z-index: -1;
 }/*# sourceMappingURL=style.css.map */
